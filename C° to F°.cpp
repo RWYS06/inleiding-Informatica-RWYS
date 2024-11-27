@@ -12,7 +12,7 @@ double getNumericInput(const string &prompt) {
         if (cin.fail()) {
              cin.clear(); 
               cin.ignore(numeric_limits<streamsize>::max(), '\n');
-               cout << "Je weet dat dat geen nummer is. Voer je tempreatuur in\n";
+               cout << "Je weet dat dat geen nummer is. Voer je temperatuur in\n";
 
           } else {
             cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
